@@ -1,0 +1,50 @@
+C:/altera/13.1/dsd/final/ALU_tb.v {1 {vlog -work work C:/altera/13.1/dsd/final/ALU_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} C:/altera/13.1/dsd/final/register_file.v {1 {vlog -work work C:/altera/13.1/dsd/final/register_file.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} C:/altera/13.1/dsd/final/memory.v {1 {vlog -work work C:/altera/13.1/dsd/final/memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/altera/13.1/dsd/final/vector_processor.v {1 {vlog -work work C:/altera/13.1/dsd/final/vector_processor.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module vector_processor
+
+Top level modules:
+	vector_processor
+
+} {} {}} C:/altera/13.1/dsd/final/topModule_tb.v {1 {vlog -work work C:/altera/13.1/dsd/final/topModule_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module topModule_tb
+
+Top level modules:
+	topModule_tb
+
+} {} {}} C:/altera/13.1/dsd/final/ALU.v {1 {vlog -work work C:/altera/13.1/dsd/final/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/altera/13.1/dsd/final/memory_tb.v {1 {vlog -work work C:/altera/13.1/dsd/final/memory_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory_tb
+
+Top level modules:
+	memory_tb
+
+} {} {}}
