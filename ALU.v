@@ -7,7 +7,7 @@ module ALU (
     reg[1023:0] alu_result;
     assign A3 = alu_result[511:0];
     assign A4 = alu_result[1023:512];
-    always @(posedge clk) begin
+    always @(*) begin
         if (reset)
             alu_result = 0;
         else if (mul)
