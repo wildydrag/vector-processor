@@ -1,9 +1,8 @@
 
 module reg_file_tb;
-
     reg clk, reset, load, store, write_enable, read, random_set;
     reg [511:0] A3, A4, load_data;
-    reg load_addr_reg, store_addr_reg;
+    reg[1:0] load_addr_reg, store_addr_reg;
     wire [511:0] A1, A2, store_data;
 
     register_file uut(
@@ -45,17 +44,18 @@ module reg_file_tb;
         #10;
         reset = 0;
         store = 1;
-        store_addr_reg = 2;
+        store_addr_reg = 2'b10;
         #10;
-        $display("time: %t\t, store_data:%b", $time, store_data);
-        // $display("Test 2: Random set");
-        // store = 0;
-        // random_set = 1;
-        // #10
-        // random_set = 0;
-        // store_addr_reg = 2;
-        // #10
-        // $display("time: %t\t, A3 value is: %b", $time, store_data);
+        $display("time: %0t\t, store_data:%b", $time, store_data);
+        $display("Test 2: Random set");
+        store = 0;
+        random_set = 1;
+        #10
+        random_set = 0;
+        store = 1;
+        store_addr_reg = 2'b10;
+        #10
+        $display("time: %0t\t, A3 value is: %b", $time, store_data);
 
 
 
