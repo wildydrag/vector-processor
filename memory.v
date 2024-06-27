@@ -8,7 +8,7 @@ module memory (
     reg[31:0] single_port_mem[0:511];
     integer i;
     integer j;
-    always @(posedge clk) begin
+    always @(*) begin
         if (reset) begin
             for (i = 0; i < 512; i = i + 1) begin
                 single_port_mem[i] <= 0;
